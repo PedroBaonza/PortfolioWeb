@@ -1,33 +1,217 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedro Baonza | Desarrollador Backend & Android</title>
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <!-- AOS Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- JS dark mode toggle -->
+  <script src="js/app.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => AOS.init());
+  </script>
 </head>
-
 <body>
+<header class="header">
+  <div class="container">
+    <h1 class="logo">Pedro Baonza</h1>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#curriculum">Currículum</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#logros">Logros</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+<section class="hero">
+  <div class="container" data-aos="fade-up">
+    <h2>Desarrollador de Software</h2>
+    <p>Especializado en backend con Java y desarrollo Android con Kotlin</p>
+    <a href="#proyectos" class="btn">Ver proyectos</a>
+    <a href="CV_PedroBaonza.pdf" class="btn btn-outline" target="_blank">Descargar CV</a>
+  </div>
+</section>
+
+<section id="sobre-mi" class="about section">
+  <div class="container" data-aos="fade-up">
+    <h2>Sobre mí</h2>
+    <p>Soy Pedro Baonza García, desarrollador backend y móvil. Actualmente trabajo para Atresmedia a través de Knowmad Mood. Me apasiona aprender, crear soluciones y trabajar en equipo.</p>
+  </div>
+</section>
+
+<section id="curriculum" class="cv section">
+  <div class="container" data-aos="fade-up">
+    <h2>Currículum</h2>
+    <details class="cv__block">
+      <summary><h3>Experiencia Profesional</h3></summary>
+      <ul>
+        <li><strong>KnowmadMood</strong> – Desarrollador Android (2025)</li>
+        <li><strong>Prosegur / Trablisa</strong> – Atención al Cliente (2023–2025)</li>
+        <li><strong>Gestiman</strong> – Electromecánico (veranos)</li>
+      </ul>
+    </details>
+    <details class="cv__block">
+      <summary><h3>Formación Académica</h3></summary>
+      <ul>
+        <li>FP DAM – IES Gonzalo Chacón</li>
+        <li>FP Sistemas Eléctricos – IES Satafi</li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section id="stack" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2>Stack Tecnológico</h2>
+    <div class="stack__grid">
+      <img src="img/icons/java.svg" alt="Java" />
+      <img src="img/icons/kotlin.svg" alt="Kotlin" />
+      <img src="img/icons/firebase.svg" alt="Firebase" />
+      <img src="img/icons/html.svg" alt="HTML" />
+      <img src="img/icons/css.svg" alt="CSS" />
+      <img src="img/icons/git.svg" alt="Git" />
+    </div>
+  </div>
+</section>
+
+<section id="logros" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2>Logros y Reconocimientos</h2>
+    <ul>
+      <li>+10 proyectos personales y académicos publicados en GitHub</li>
+      <li>Integración real en entornos empresariales (Atresmedia)</li>
+      <li>Desarrollador del proyecto final de grado con app funcional publicada</li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2>Preguntas Frecuentes</h2>
+    <details><summary>¿Estás buscando empleo?</summary><p>Sí. Estoy abierto a nuevas oportunidades tanto freelance como contrato fijo.</p></details>
+    <details><summary>¿Te interesa el trabajo remoto?</summary><p>Sí. Estoy preparado para trabajar remoto o de forma híbrida.</p></details>
+    <details><summary>¿Cómo aprendiste a programar?</summary><p>A través de formación oficial y proyectos reales en empresas y por mi cuenta.</p></details>
+  </div>
+</section>
+
+<section id="testimonios" class="section">
+  <div class="container" data-aos="fade-up">
+    <h2>Testimonios</h2>
+    <blockquote>
+      <p>“Pedro demostró compromiso y autonomía durante sus prácticas. Se integró rápidamente en el equipo y fue resolutivo con Retrofit y Android Studio.”</p>
+      <footer>– Supervisor en Knowmad Mood</footer>
+    </blockquote>
+  </div>
+</section>
+
+
+<!-- HABILIDADES -->
+<section id="habilidades" class="skills section">
+  <div class="container">
+    <h2>Habilidades Técnicas</h2>
+    <ul class="skills__list">
+      <li>Java • Kotlin • JavaScript</li>
+      <li>Spring Boot • Android Jetpack • Retrofit</li>
+      <li>Firebase • MySQL • MongoDB</li>
+      <li>Git • Docker • Postman • n8n</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="proyectos" class="projects section">
+  <div class="container">
+    <h2>Proyectos destacados</h2>
+
+    <div class="project">
+      <h3>MallCenter (TFG)</h3>
+      <p>App Android completa para explorar centros comerciales, ver productos y realizar compras.</p>
+      <p><strong>Tecnologías:</strong> Kotlin, Firebase, MVVM, Firestore</p>
+      <a href="https://github.com/PedroBaonza/mallcenter" target="_blank" class="btn">Ver código</a>
+    </div>
+
+    <div class="project">
+      <h3>BookExplorer</h3>
+      <p>Aplicación Android para buscar libros con OpenLibrary. Incluye arquitectura MVVM y tests con JUnit.</p>
+      <p><strong>Tecnologías:</strong> Kotlin, Retrofit, JUnit, MVVM</p>
+      <a href="https://github.com/PedroBaonza/bookexplorer" target="_blank" class="btn">Ver código</a>
+    </div>
+
+    <div class="project">
+      <h3>TiendaOnlinePHP</h3>
+      <p>CRUD en PHP con base de datos y Bootstrap. Permite crear, editar, eliminar y ver productos.</p>
+      <p><strong>Tecnologías:</strong> PHP, MySQL, Bootstrap, PDO</p>
+      <a href="https://github.com/PedroBaonza/TiendaOnlinePHP" target="_blank" class="btn">Ver código</a>
+    </div>
+
+    <div class="project">
+      <h3>DaVinciDemo</h3>
+      <p>Montaje de video profesional usando DaVinci Resolve, enfocado en presentación de proyectos.</p>
+      <p><strong>Tecnologías:</strong> DaVinci Resolve, edición de video</p>
+      <a href="https://github.com/PedroBaonza/DaVinciDemo" target="_blank" class="btn">Ver proyecto</a>
+    </div>
+
+    <div class="project">
+      <h3>PortfolioPersonal</h3>
+      <p>Portfolio web en desarrollo con HTML, CSS, modo oscuro, responsive, y efectos AOS.</p>
+      <p><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript</p>
+      <a href="https://github.com/PedroBaonza/PortfolioPersonal" target="_blank" class="btn">Ver código</a>
+    </div>
+
+    <div class="project">
+      <h3>DWES-Prácticas</h3>
+      <p>Prácticas de desarrollo backend con PHP, WildFly y configuración de servidores en Linux.</p>
+      <p><strong>Tecnologías:</strong> PHP, WildFly, Linux, FTP, Apache</p>
+      <a href="https://github.com/PedroBaonza/DWES-Practicas" target="_blank" class="btn">Ver código</a>
+    </div>
+
+    <div class="project">
+      <h3>ScriptsBashLinux</h3>
+      <p>Colección de scripts útiles para automatizar tareas en sistemas Linux.</p>
+      <p><strong>Tecnologías:</strong> Bash, Linux</p>
+      <a href="https://github.com/PedroBaonza/ScriptsBashLinux" target="_blank" class="btn">Ver scripts</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACTO -->
+<section id="contacto" class="contact section">
+  <div class="container">
+    <h2>Contacto</h2>
+    <p>¿Quieres trabajar conmigo o tienes una propuesta? Estoy disponible para colaborar.</p>
+    <ul class="contact__info">
+      <li>Email: <a href="mailto:pedro@example.com">pedro@example.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/pedrobaonza" target="_blank">/pedrobaonza</a></li>
+      <li>GitHub: <a href="https://github.com/pedrobaonza" target="_blank">/pedrobaonza</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 Pedro Baonza García. Todos los derechos reservados.</p>
+  </div>
+</footer>
 
 </body>
-
 </html>
